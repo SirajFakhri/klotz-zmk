@@ -82,7 +82,7 @@ display-name= "BASE"                              ;
 //                                     ┃   ENTER   ┃    SPC    ┃   ┃    TAB    ┃   BSPC    ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
-// ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
+// ╷  test         ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
     &ct LGUI Q  &ct LALT W  &ct LCTRL F &ct LSHFT P &kp B           &kp J       &ct RSHFT L &ct RCTRL U &ct RALT Y  &ct RGUI SEMI
     &kp A       &kp R       &kp S       &kp T       &kp G           &kp M       &kp N       &kp E       &kp I       &kp O
