@@ -184,7 +184,7 @@ display-name= "PHSH"                               ;
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 // ┃   CRTL    ┃     T     ┃     W     ┃     E     ┃   TILDE   ┃   ┃     O     ┃     N     ┃     P     ┃           ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃     X     ┃     C     ┃     Z     ┃     B     ┃     V     ┃   ┃   PBREAK  ┃           ┃           ┃           ┃           ┃
+// ┃     X     ┃     C     ┃     Z     ┃     B     ┃     V     ┃   ┃   PBREAK  ┃    ESC    ┃           ┃           ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 // ┃   LSHFT   ┃     S     ┃     D     ┃     U     ┃     M     ┃   ┃           ┃           ┃           ┃           ┃   BASE    ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -194,7 +194,7 @@ display-name= "PHSH"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
     &kp LCTRL   &kp T       &kp W       &kp E       &kp GRAVE       &kp O       &kp N       &kp P       &trans      &trans
-    &kp X       &kp C       &kp Z       &kp B       &kp V           &kp PAUSE_BREAK &trans  &trans      &trans      &trans  
+    &kp X       &kp C       &kp Z       &kp B       &kp V           &kp PAUSE_BREAK &kp ESC &trans      &trans      &trans  
     &kp LSHFT   &kp S       &kp D       &kp U       &kp M           &trans      &trans      &trans      &trans      &tog BASE     
                                         &ct SPACE RET &kp LALT       &trans      &trans
                         >;
