@@ -105,9 +105,9 @@ display-name= "NAVI"                              ;
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 // ┃    LGUI   ┃     4     ┃     5     ┃     6     ┃     - _   ┃   ┃           ┃   LEFT    ┃     UP    ┃   RIGHT   ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃     0     ┃     1     ┃     2     ┃     3     ┃     *     ┃   ┃           ┃  P UP     ┃    DOWN   ┃  P DOWN   ┃           ┃
+// ┃     0     ┃     1     ┃     2     ┃     3     ┃     *     ┃   ┃           ┃   P UP    ┃    DOWN   ┃  P DOWN   ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃   ENTER   ┃           ┃   ┃  ADJUST   ┃           ┃  
+//                                     ┃   ENTER   ┃           ┃   ┃  ADJUST   ┃   PHSH    ┃  
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
@@ -196,7 +196,7 @@ display-name= "PHSH"                               ;
     &kp LCTRL   &kp T       &kp W       &kp E       &kp Q           &kp O       &kp N       &trans      &trans      &trans
     &kp X       &kp C       &kp Z       &kp B       &kp V           &kp PAUSE_BREAK &trans  &trans      &trans      &trans  
     &kp LSHFT   &kp S       &kp D       &kp U       &kp M           &trans      &trans      &trans      &trans      &tog BASE     
-                                        &ct SPACE RET &kp ALT          &trans      &trans
+                                        &ct SPACE RET &kp ALT       &trans      &trans
                         >;
             sensor-bindings = <&encoder_alt_tab &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
