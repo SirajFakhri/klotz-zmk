@@ -182,7 +182,7 @@ display-name= "ADJ"                               ;
 display-name= "PHSH"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-// ┃   CRTL    ┃     T     ┃     W     ┃     E     ┃   TILDE   ┃   ┃     O     ┃     N     ┃           ┃           ┃           ┃
+// ┃   CRTL    ┃     T     ┃     W     ┃     E     ┃   TILDE   ┃   ┃     O     ┃     N     ┃     P     ┃           ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 // ┃     X     ┃     C     ┃     Z     ┃     B     ┃     V     ┃   ┃   PBREAK  ┃           ┃           ┃           ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
@@ -193,7 +193,7 @@ display-name= "PHSH"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
-    &kp LCTRL   &kp T       &kp W       &kp E       &kp Q           &kp O       &kp N       &trans      &trans      &trans
+    &kp LCTRL   &kp T       &kp W       &kp E       &kp Q           &kp O       &kp N       &kp P       &trans      &trans
     &kp X       &kp C       &kp Z       &kp B       &kp V           &kp PAUSE_BREAK &trans  &trans      &trans      &trans  
     &kp LSHFT   &kp S       &kp D       &kp U       &kp M           &trans      &trans      &trans      &trans      &tog BASE     
                                         &ct SPACE RET &kp ALT       &trans      &trans
