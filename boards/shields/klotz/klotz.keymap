@@ -7,7 +7,7 @@
 #define NAV  1
 #define SYM  2
 #define ADJ  3
-#defint PHSH 4
+#define PHSH 4
 
 / {
     combos {
@@ -85,9 +85,9 @@ display-name= "BASE"                              ;
  bindings = <
 // ╷          ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
-    &kp Q       &ct LALT W  &ct LCTRL F &ct LSHFT P &kp B           &kp J       &ct RSHFT L &ct RCTRL U &ct RALT Y  &ct RGUI SEMI
-    &kp A       &kp R       &kp S       &kp T       &kp G           &kp M       &kp N       &kp E       &kp I       &kp O
-    &kp Z       &kp X       &kp C       &kp D       &kp V           &kp K       &kp H       &kp COMMA   &kp DOT     &kp FSLH
+    &ct LGUI Q &ct LALT W  &ct LCTRL F &ct LSHFT P &kp B           &kp J       &ct RSHFT L &ct RCTRL U &ct RALT Y  &ct RGUI SEMI
+    &kp A      &kp R       &kp S       &kp T       &kp G           &kp M       &kp N       &kp E       &kp I       &kp O
+    &kp Z      &kp X       &kp C       &kp D       &kp V           &kp K       &kp H       &kp COMMA   &kp DOT     &kp FSLH
                                        &ct LCTRL RET &lt NAV SPACE  &lt SYM TAB &ct RSHFT BSPC    
                         >;
             sensor-bindings = <&encoder_alt_tab &inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -101,20 +101,20 @@ display-name= "BASE"                              ;
 display-name= "NAVI"                              ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-// ┃    ESC    ┃     7     ┃     8     ┃     9     ┃     + =   ┃   ┃           ┃           ┃           ┃           ┃           ┃
+// ┃    ESC    ┃     7     ┃     8     ┃     9     ┃     + =   ┃   ┃           ┃   PREV    ┃PLAY/PAUSE ┃   NEXT    ┃  VOL UP   ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃    LGUI   ┃     4     ┃     5     ┃     6     ┃     - _   ┃   ┃           ┃   LEFT    ┃     UP    ┃   RIGHT   ┃           ┃
+// ┃    LGUI   ┃     4     ┃     5     ┃     6     ┃     - _   ┃   ┃    TAB    ┃   LEFT    ┃     UP    ┃   RIGHT   ┃ VOL DOWN  ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃     0     ┃     1     ┃     2     ┃     3     ┃     *     ┃   ┃           ┃   P UP    ┃    DOWN   ┃  P DOWN   ┃           ┃
+// ┃     0     ┃     1     ┃     2     ┃     3     ┃     *     ┃   ┃           ┃   P UP    ┃    DOWN   ┃  P DOWN   ┃   MUTE    ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃   ENTER   ┃           ┃   ┃  ADJUST   ┃   PHSH    ┃  
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
-    &kp ESC     &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_PLUS     &trans      &trans      &trans      &trans      &trans
-    &kp LGUI    &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS    &trans      &ct RSHFT LEFT &kp UP &kp RIGHT   &trans
-    &kp KP_N0   &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_MULTIPLY &trans      &kp PG_UP   &kp DOWN    &kp PG_DN   &trans
+    &kp ESC     &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_PLUS     &trans      &kp K_PREV  &kp K_PP    &kp K_NEXT  &kp K_VOL_UP
+    &kp LGUI    &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS    &kp TAB     &ct RSHFT LEFT &kp UP   &kp RIGHT   &kp K_VOL_DN
+    &kp KP_N0   &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_MULTIPLY &trans      &kp PG_UP   &kp DOWN    &kp PG_DN   &kp K_MUTE
                                         &kp RET     &trans          &mo ADJ     &tog PHSH     
                         >;
             sensor-bindings = <&encoder_alt_tab &inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -193,7 +193,7 @@ display-name= "PHSH"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
-    &kp LCTRL   &kp T       &kp W       &kp E       &kp Q           &kp O       &kp N       &kp P       &trans      &trans
+    &kp LCTRL   &kp T       &kp W       &kp E       &kp GRAVE       &kp O       &kp N       &kp P       &trans      &trans
     &kp X       &kp C       &kp Z       &kp B       &kp V           &kp PAUSE_BREAK &trans  &trans      &trans      &trans  
     &kp LSHFT   &kp S       &kp D       &kp U       &kp M           &trans      &trans      &trans      &trans      &tog BASE     
                                         &ct SPACE RET &kp ALT       &trans      &trans
