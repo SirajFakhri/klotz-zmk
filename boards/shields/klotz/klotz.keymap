@@ -196,7 +196,7 @@ display-name= "PHSH"                               ;
     &kp LCTRL   &kp T       &kp W       &kp E       &kp GRAVE       &kp O       &kp N       &kp P       &trans      &trans
     &kp X       &kp C       &kp Z       &kp B       &kp V           &kp PAUSE_BREAK &trans  &trans      &trans      &trans  
     &kp LSHFT   &kp S       &kp D       &kp U       &kp M           &trans      &trans      &trans      &trans      &tog BASE     
-                                        &ct SPACE RET &kp ALT       &trans      &trans
+                                        &ct SPACE RET &kp LALT       &trans      &trans
                         >;
             sensor-bindings = <&encoder_alt_tab &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
