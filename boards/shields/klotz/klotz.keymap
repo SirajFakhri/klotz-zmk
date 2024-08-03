@@ -184,9 +184,9 @@ display-name= "PHSH"                               ;
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 // ┃     X     ┃     T     ┃     W     ┃     E     ┃   TILDE   ┃   ┃     O     ┃     N     ┃     P     ┃           ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃   CTRL    ┃     C     ┃     Z     ┃     B     ┃     V     ┃   ┃   ENTER   ┃    ESC    ┃           ┃           ┃           ┃
+// ┃   LSHFT   ┃     C     ┃     Z     ┃     B     ┃     V     ┃   ┃   ENTER   ┃    ESC    ┃           ┃           ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃   LSHFT   ┃     S     ┃     D     ┃     U     ┃     M     ┃   ┃  PBREAK   ┃           ┃           ┃           ┃   BASE    ┃
+// ┃   CTRL    ┃     S     ┃     D     ┃     U     ┃     M     ┃   ┃  PBREAK   ┃           ┃           ┃           ┃   BASE    ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃   LALT    ┃   SPACE   ┃   ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -194,8 +194,8 @@ display-name= "PHSH"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
     &kp X       &kp T       &kp W       &kp E       &kp GRAVE       &kp O       &kp N       &kp P       &trans      &trans
-    &kp LCTRL   &kp C       &kp Z       &kp B       &kp V           &kp ENTER   &kp ESC &trans      &trans      &trans  
-    &kp LSHFT   &kp S       &kp D       &kp U       &kp M           &kp PAUSE_BREAK &trans      &trans      &trans      &to BASE     
+    &kp LSHFT   &kp C       &kp Z       &kp B       &kp V           &kp ENTER   &kp ESC &trans      &trans      &trans  
+    &kp LCTRL   &kp S       &kp D       &kp U       &kp M           &kp PAUSE_BREAK &trans      &trans      &trans      &to BASE     
                                         &kp LALT    &kp SPACE       &trans      &trans
                         >;
             sensor-bindings = <&encoder_alt_tab &inc_dec_kp C_VOL_UP C_VOL_DN>;
