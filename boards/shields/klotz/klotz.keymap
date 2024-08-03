@@ -182,21 +182,21 @@ display-name= "ADJ"                               ;
 display-name= "PHSH"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-// ┃   TILDE   ┃     T     ┃     W     ┃     E     ┃   CTRL    ┃   ┃     O     ┃     N     ┃     P     ┃           ┃           ┃
+// ┃     X     ┃     T     ┃     W     ┃     E     ┃   CTRL    ┃   ┃     O     ┃     N     ┃     P     ┃           ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃     X     ┃     C     ┃     Z     ┃     B     ┃     V     ┃   ┃   ENTER   ┃    ESC    ┃           ┃           ┃           ┃
+// ┃   LALT    ┃     C     ┃     Z     ┃     B     ┃     V     ┃   ┃   ENTER   ┃    ESC    ┃           ┃           ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 // ┃   LSHFT   ┃     S     ┃     D     ┃     U     ┃     M     ┃   ┃  PBREAK   ┃           ┃           ┃           ┃   BASE    ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃   LALT    ┃   SPACE   ┃   ┃           ┃           ┃
+//                                     ┃   TILDE   ┃   SPACE   ┃   ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
-    &kp GRAVE   &kp T       &kp W       &kp E       &kp LCTRL       &kp O       &kp N       &kp P       &trans      &trans
-    &kp X       &kp C       &kp Z       &kp B       &kp V           &kp ENTER   &kp ESC &trans      &trans      &trans  
+    &kp X       &kp T       &kp W       &kp E       &kp LCTRL       &kp O       &kp N       &kp P       &trans      &trans
+    &kp LALT    &kp C       &kp Z       &kp B       &kp V           &kp ENTER   &kp ESC &trans      &trans      &trans  
     &kp LSHFT   &kp S       &kp D       &kp U       &kp M           &kp PAUSE_BREAK &trans      &trans      &trans      &to BASE     
-                                        &kp LALT    &kp SPACE       &trans      &trans
+                                        &kp GRAVE   &kp SPACE       &trans      &trans
                         >;
             sensor-bindings = <&encoder_alt_tab &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
