@@ -188,7 +188,7 @@ display-name= "PHSH"                               ;
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 // ┃   LSHFT   ┃     S     ┃     D     ┃     U     ┃     M     ┃   ┃           ┃           ┃           ┃           ┃   BASE    ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃   SPACE   ┃    ALT    ┃   ┃           ┃           ┃
+//                                     ┃   SPACE   ┃   ENTER   ┃   ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
@@ -196,7 +196,7 @@ display-name= "PHSH"                               ;
     &kp GRAVE   &kp T       &kp W       &kp E       &kp LCTRL       &kp O       &kp N       &kp P       &trans      &trans
     &kp X       &kp C       &kp Z       &kp B       &kp V           &kp PAUSE_BREAK &kp ESC &trans      &trans      &trans  
     &kp LSHFT   &kp S       &kp D       &kp U       &kp M           &trans      &trans      &trans      &trans      &to BASE     
-                                        &kp SPACE   &ct RET LALT       &trans      &trans
+                                        &kp SPACE   &ct LALT RET       &trans      &trans
                         >;
             sensor-bindings = <&encoder_alt_tab &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
