@@ -183,8 +183,8 @@ display-name= "MIRROR"                              ;
  bindings = <
 // ╷          ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
-    &ct LGUI Q      &kp Y       &kp U       &kp L       &kp J           &kp J       &kp L       &kp U       &kp Y       &kp Q
-    &kp O      &kp I       &kp E       &kp I       &kp N           &kp M       &kp N       &kp E       &kp I       &kp O
+    &ct LGUI Q &kp Y       &kp U       &kp L       &kp J           &kp J       &kp L       &kp U       &kp Y       &kp Q
+    &kp O      &kp I       &kp E       &kp N       &kp M           &kp M       &kp N       &kp E       &kp I       &kp O
     &ct LCTRL Z &ct LSHFT X &ct LALT C &kp H       &kp K           &kp K       &kp H       &kp C       &kp X       &kp Z
                                        &trans      &trans          &lt SYM TAB &ct RSHFT BSPC    
                         >;
