@@ -231,7 +231,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-  &ct LGUI Q   &kp Y        &kp U       &kp L   &kp J     &to 6   &trans  &trans  &trans  &trans
+  &ct LGUI Q   &kp Y        &kp U       &kp L   &kp J     &tog 6  &trans  &trans  &trans  &trans
   &kp O        &kp I        &kp E       &kp N   &kp M     &trans  &trans  &trans  &trans  &trans
   &ct LCTRL Z  &ct LSHFT X  &ct LALT C  &kp H   &kp K     &trans  &trans  &trans  &trans  &trans
                                         &trans  &trans    &trans  &trans
@@ -358,7 +358,7 @@
             bindings = <
   &kp Z      &kp Q  &kp R  &kp E     &kp I        &kp N1   &kp N2    &kp N3    &kp N4     &kp N5
   &kp LSHFT  &kp A  &kp W  &kp D     &kp F        &kp RET  &kp LEFT  &kp UP    &kp RIGHT  &kp BSPC
-  &kp LCTRL  &kp X  &kp S  &kp C     &kp V        &kp M    &trans    &kp DOWN  &trans     &trans
+  &kp LCTRL  &kp X  &kp S  &kp C     &kp V        &kp M    &trans    &kp DOWN  &trans     &to 0
                            &kp LALT  &kp SPACE    &kp RET  &mo 2
             >;
         };
