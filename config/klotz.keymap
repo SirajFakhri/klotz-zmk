@@ -25,7 +25,7 @@
 
         combo_bspc {
             timeout-ms = <50>;
-            key-positions = <3 4>;
+            key-positions = <3 2>;
             bindings = <&kp BSPC>;
         };
 
@@ -33,7 +33,7 @@
 
         combo_del {
             timeout-ms = <50>;
-            key-positions = <2 3>;
+            key-positions = <3 4>;
             bindings = <&kp DEL>;
         };
 
