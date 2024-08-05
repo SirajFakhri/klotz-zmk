@@ -344,8 +344,8 @@ display-name= ":PROG"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
     &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans
-    &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans
-    &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans
+    &kp f13     &kp f14     &kp f15     &kp f16     &trans          &trans      &trans      &trans      &trans      &trans
+    &kp f17     &kp f18     &kp f19     &kp f20     &trans          &trans      &trans      &trans      &trans      &trans
                                         &trans      &trans          &trans      &trans
                         >;
             sensor-bindings = <&encoder_alt_tab &inc_dec_kp C_VOL_UP C_VOL_DN>;
