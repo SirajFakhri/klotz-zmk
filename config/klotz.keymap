@@ -399,7 +399,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-  &kp X      &kp T  &kp W  &kp E     &kp GRAVE    &kp O            &kp N    &kp P   &trans  &trans
+  &kp TAB    &kp T  &kp W  &kp E     &kp GRAVE    &kp O            &kp N    &kp P   &trans  &trans
   &kp LSHFT  &kp C  &kp R  &kp B     &kp V        &kp ENTER        &kp ESC  &trans  &trans  &trans
   &kp LCTRL  &kp S  &kp D  &kp U     &kp M        &kp PAUSE_BREAK  &trans   &trans  &trans  &to 0
                            &kp LALT  &kp SPACE    &trans           &trans
