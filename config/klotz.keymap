@@ -91,6 +91,11 @@
             bindings = <&macro_ctrlshftc>;
             key-positions = <22 23 21>;
         };
+
+        home {
+            bindings = <&to 0>;
+            key-positions = <0 1 2 3>;
+        };
     };
 
     macros {
