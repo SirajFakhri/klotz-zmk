@@ -96,6 +96,11 @@
             bindings = <&to 0>;
             key-positions = <0 1 2 3>;
         };
+
+        Combo_ctrlbkspc {
+            bindings = <&Macro_ctrlbkspc>;
+            key-positions = <1 2>;
+        };
     };
 
     macros {
@@ -223,6 +228,20 @@
             bindings = <&macro_tap>, <&kp Q>, <&macro_tap>, <&kp U>;
 
             label = "QU";
+        };
+
+        Macro_ctrlbkspc: Macro_ctrlbkspc {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp BACKSPACE>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "MACRO_CTRLBKSPC";
         };
     };
 
