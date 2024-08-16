@@ -375,9 +375,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-  &trans    &kp AMPS   &kp KP_MULTIPLY  &trans     &kp LBRC    &kp RBRC  &trans     &kp COLON  &trans       &kp SEMI
-  &trans    &kp PRCNT  &kp QMARK        &kp EXCL   &kp LBKT    &kp RBKT  &kp COMMA  &kp DOT    &kp SQT      &kp QMARK
-  &kp DLLR  &kp CARET  &kp AT           &kp HASH   &kp LPAR    &kp RPAR  &kp LSHFT  &kp FSLH   &kp LS(DQT)  &kp SQT
+  &trans    &kp AMPS   &kp KP_MULTIPLY  &trans     &kp LBRC    &kp RBRC  &kp QUESTION  &kp COLON  &trans       &kp SEMI
+  &trans    &kp PRCNT  &kp QMARK        &kp EXCL   &kp LBKT    &kp RBKT  &kp COMMA     &kp DOT    &kp SQT      &kp QMARK
+  &kp DLLR  &kp CARET  &kp AT           &kp HASH   &kp LPAR    &kp RPAR  &kp LSHFT     &kp FSLH   &kp LS(DQT)  &kp SQT
                                         &kp LSHFT  &mo 4       &trans    &trans
             >;
 
