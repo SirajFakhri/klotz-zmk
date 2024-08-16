@@ -94,12 +94,17 @@
 
         home {
             bindings = <&to 0>;
-            key-positions = <0 1 2 3>;
+            key-positions = <0 1 2>;
         };
 
         Combo_ctrlbkspc {
             bindings = <&Macro_ctrlbkspc>;
             key-positions = <1 2>;
+        };
+
+        combo_ctrlj {
+            bindings = <&macro_ctrlj>;
+            key-positions = <24 23>;
         };
     };
 
@@ -234,6 +239,20 @@
                 <&kp LCTRL>;
 
             label = "MACRO_CTRLBKSPC";
+        };
+
+        macro_ctrlj: macro_ctrlj {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp J>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "MACRO_CTRLJ";
         };
     };
 
