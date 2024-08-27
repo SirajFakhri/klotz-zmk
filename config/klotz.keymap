@@ -124,7 +124,7 @@
 
         exclaimation {
             bindings = <&kp EXCLAMATION>;
-            key-positions = <8 9>;
+            key-positions = <8 7 6>;
         };
 
         questionmark {
