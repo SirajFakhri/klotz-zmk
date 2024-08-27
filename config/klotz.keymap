@@ -111,6 +111,41 @@
             bindings = <&kp PAUSE_BREAK>;
             key-positions = <2 3 4>;
         };
+
+        fullstop {
+            bindings = <&kp PERIOD>;
+            key-positions = <17 18>;
+        };
+
+        comma {
+            bindings = <&kp COMMA>;
+            key-positions = <17 16>;
+        };
+
+        exclaimation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <7 8>;
+        };
+
+        questionmark {
+            bindings = <&kp QUESTION>;
+            key-positions = <6 7>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <18 16>;
+        };
+
+        fwd_slash {
+            bindings = <&kp SLASH>;
+            key-positions = <5 6>;
+        };
+
+        dash_undrscore {
+            bindings = <&kp MINUS>;
+            key-positions = <17 15>;
+        };
     };
 
     macros {
