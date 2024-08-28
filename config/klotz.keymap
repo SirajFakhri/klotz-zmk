@@ -79,7 +79,7 @@
 
         Enter {
             bindings = <&kp RET>;
-            key-positions = <10 11>;
+            key-positions = <12 14>;
         };
 
         ctrlshftv {
