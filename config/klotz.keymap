@@ -483,8 +483,8 @@
 
             bindings = <
   &lt 6 TAB  &kp U  &kp W  &kp R      &kp T        &kp O            &kp N    &kp P   &trans  &trans
-  &kp LSHFT  &kp C  &kp S  &kp GRAVE  &kp M        &kp ENTER        &kp ESC  &trans  &trans  &trans
-  &kp LCTRL  &kp E  &kp D  &kp V      &kp B        &kp PAUSE_BREAK  &trans   &trans  &trans  &to 0
+  &kp LSHFT  &kp C  &kp S  &kp GRAVE  &kp B        &kp ENTER        &kp ESC  &trans  &trans  &trans
+  &kp LCTRL  &kp E  &kp D  &kp V      &kp M        &kp PAUSE_BREAK  &trans   &trans  &trans  &to 0
                            &kp LALT   &kp SPACE    &trans           &trans
             >;
 
