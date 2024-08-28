@@ -331,7 +331,7 @@
             label = "MACRO_NUMBER";
         };
 
-        macro_IC: macro_address {
+        macro_nom: macro_address {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N9 &kp N8 &kp N1 &kp N1 &kp N0 &kp N4 &kp N8 &kp N8 &kp N5 &kp N0 &kp N7 &kp N9>;
@@ -408,7 +408,7 @@
             bindings = <
   &ct LGUI Q   &kp Y        &kp U       &kp L   &kp J     &tog 5  &to 8             &trans        &trans         &trans
   &lt 6 O      &kp I        &kp E       &kp N   &kp M     &to 7   &macro_sirajfull  &macro_email  &macro_number  &trans
-  &ct LCTRL Z  &ct LSHFT X  &ct LALT C  &kp H   &kp K     &trans  &trans            &macro_IC     &trans         &trans
+  &ct LCTRL Z  &ct LSHFT X  &ct LALT C  &kp H   &kp K     &trans  &trans            &macro_nom    &trans         &trans
                                         &trans  &trans    &trans  &trans
             >;
 
