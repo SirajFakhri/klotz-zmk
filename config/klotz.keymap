@@ -109,7 +109,7 @@
 
         pausebreak_prnt {
             bindings = <&kp PAUSE_BREAK>;
-            key-positions = <2 3 4>;
+            key-positions = <2 4 1>;
         };
 
         fullstop {
