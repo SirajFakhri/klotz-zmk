@@ -134,7 +134,7 @@
 
         colon {
             bindings = <&kp COLON>;
-            key-positions = <18 16>;
+            key-positions = <18 16 17>;
         };
 
         fwd_slash {
