@@ -166,6 +166,16 @@
             bindings = <&to 5>;
             key-positions = <31 1>;
         };
+
+        combo_ctrlo {
+            bindings = <&macro_ctrlo>;
+            key-positions = <20 14>;
+        };
+
+        combo_ctrln {
+            bindings = <&macro_ctrln>;
+            key-positions = <20 4>;
+        };
     };
 
     macros {
@@ -313,6 +323,34 @@
                 <&kp LCTRL>;
 
             label = "MACRO_CTRLJ";
+        };
+
+        macro_ctrlo: macro_ctrlo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp O>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "MACRO_CTRLO";
+        };
+
+        macro_ctrln: macro_ctrln {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp N>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "MACRO_CTRLN";
         };
     };
 
