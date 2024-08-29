@@ -487,10 +487,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-  &lt 6 TAB  &kp U    &kp W  &kp R      &kp T        &kp O            &kp N    &kp P   &trans  &trans
-  &kp LSHFT  &kp C    &kp B  &kp GRAVE  &kp S        &kp ENTER        &kp ESC  &trans  &trans  &trans
-  &kp LCTRL  &lt 2 E  &kp D  &kp V      &kp M        &kp PAUSE_BREAK  &trans   &trans  &trans  &to 0
-                             &kp LALT   &kp SPACE    &trans           &trans
+  &lt 6 TAB  &kp C  &kp W  &kp R      &kp T        &kp O            &kp N    &kp P   &trans  &trans
+  &kp LSHFT  &kp U  &kp B  &kp GRAVE  &kp S        &kp ENTER        &kp ESC  &trans  &trans  &trans
+  &kp LCTRL  &kp D  &kp E  &kp V      &kp M        &kp PAUSE_BREAK  &trans   &trans  &trans  &to 0
+                           &kp LALT   &kp SPACE    &trans           &trans
             >;
 
             sensor-bindings = <&encoder_alt_tab &inc_dec_kp C_VOL_UP C_VOL_DN>;
