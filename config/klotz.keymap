@@ -94,7 +94,7 @@
 
         home {
             bindings = <&to 0>;
-            key-positions = <0 1 2>;
+            key-positions = <0 31>;
         };
 
         Combo_ctrlbkspc {
@@ -160,6 +160,11 @@
         f2 {
             bindings = <&kp F2>;
             key-positions = <1 3>;
+        };
+
+        photoshop {
+            bindings = <&to 5>;
+            key-positions = <31 1>;
         };
     };
 
