@@ -585,10 +585,10 @@
 
         blender_layer2 {
             bindings = <
-  &trans  &kp N4         &kp U         &kp I         &kp O     &trans  &kp N7  &kp N8  &kp N9  &kp ASTERISK
-  &kp N5  &kp N1         &kp N2        &kp N3        &kp N     &trans  &kp N4  &kp N5  &kp N6  &trans
-  &kp N6  &macro_num225  &macro_num45  &macro_num90  &kp M     &kp N0  &kp N1  &kp N2  &kp N3  &trans
-                                       &trans        &trans    &trans  &trans
+  &kp MINUS  &kp N4         &kp U         &kp I         &kp O     &trans  &kp N7  &kp N8  &kp N9  &kp ASTERISK
+  &kp N5     &kp N1         &kp N2        &kp N3        &kp N     &trans  &kp N4  &kp N5  &kp N6  &kp MINUS
+  &kp N6     &macro_num225  &macro_num45  &macro_num90  &kp M     &kp N0  &kp N1  &kp N2  &kp N3  &kp PLUS
+                                          &trans        &trans    &trans  &trans
             >;
         };
 
