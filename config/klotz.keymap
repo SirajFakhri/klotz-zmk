@@ -535,10 +535,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-  &lt 6 TAB  &kp C  &kp W      &kp R     &kp T        &kp O            &kp N    &kp P   &trans  &trans
-  &kp LSHFT  &kp U  &kp GRAVE  &kp B     &kp S        &kp ENTER        &kp ESC  &trans  &trans  &trans
-  &kp LCTRL  &kp D  &kp E      &kp V     &kp M        &kp PAUSE_BREAK  &trans   &trans  &trans  &to 0
-                               &kp LALT  &kp SPACE    &trans           &trans
+  &lt 6 TAB  &kp C  &kp W  &kp R     &kp T        &kp O            &kp N    &kp P   &trans  &trans
+  &kp LSHFT  &kp U  &kp S  &kp B     &kp GRAVE    &kp ENTER        &kp ESC  &trans  &trans  &trans
+  &kp LCTRL  &kp D  &kp E  &kp V     &kp M        &kp PAUSE_BREAK  &trans   &trans  &trans  &to 0
+                           &kp LALT  &kp SPACE    &trans           &trans
             >;
 
             sensor-bindings = <&encoder_alt_tab &inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -564,9 +564,9 @@
 
         blender_layer2 {
             bindings = <
-  &trans  &trans  &kp U   &kp I   &kp O     &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &kp U   &kp I   &kp O     &trans  &kp N7  &kp N8  &kp N9  &kp ASTERISK
+  &trans  &kp N1  &kp N2  &kp N3  &kp L     &trans  &kp N4  &kp N5  &kp N6  &trans
+  &trans  &trans  &trans  &trans  &kp M     &kp N0  &kp N1  &kp N2  &kp N3  &trans
                           &trans  &trans    &trans  &trans
             >;
         };
