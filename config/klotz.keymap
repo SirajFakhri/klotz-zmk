@@ -362,6 +362,27 @@
 
             label = "MACRO_CTRLN";
         };
+
+        macro_num225: macro_num225 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N2 &kp N2 &kp DOT &kp N5>;
+            label = "MACRO_NUM225";
+        };
+
+        macro_num45: macro_num45 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N4 &kp N5>;
+            label = "MACRO_NUM45";
+        };
+
+        macro_num90: macro_num90 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N9 &kp N0>;
+            label = "MACRO_NUM90";
+        };
     };
 
     behaviors {
@@ -564,10 +585,10 @@
 
         blender_layer2 {
             bindings = <
-  &trans  &trans  &kp U   &kp I   &kp O     &trans  &kp N7  &kp N8  &kp N9  &kp ASTERISK
-  &trans  &kp N1  &kp N2  &kp N3  &kp L     &trans  &kp N4  &kp N5  &kp N6  &trans
-  &trans  &trans  &trans  &trans  &kp M     &kp N0  &kp N1  &kp N2  &kp N3  &trans
-                          &trans  &trans    &trans  &trans
+  &trans  &trans         &kp U         &kp I         &kp O     &trans  &kp N7  &kp N8  &kp N9  &kp ASTERISK
+  &trans  &kp N1         &kp N2        &kp N3        &kp L     &trans  &kp N4  &kp N5  &kp N6  &trans
+  &trans  &macro_num225  &macro_num45  &macro_num90  &kp M     &kp N0  &kp N1  &kp N2  &kp N3  &trans
+                                       &trans        &trans    &trans  &trans
             >;
         };
 
