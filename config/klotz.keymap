@@ -49,7 +49,7 @@
 
         combo_ctrlshftz {
             timeout-ms = <50>;
-            key-positions = <20 21 22>;
+            key-positions = <20 21 31>;
             bindings = <&macro_crtlshftz>;
         };
 
@@ -84,12 +84,12 @@
 
         ctrlshftv {
             bindings = <&macro_ctrlshftv>;
-            key-positions = <20 23 21>;
+            key-positions = <23 21 31>;
         };
 
         ctrlshftc {
             bindings = <&macro_ctrlshftc>;
-            key-positions = <22 23 21>;
+            key-positions = <22 23 31>;
         };
 
         home {
@@ -185,6 +185,11 @@
         combo_tab {
             bindings = <&kp TAB>;
             key-positions = <10 11>;
+        };
+
+        combo_ctrlshfti {
+            bindings = <&macro_ctrlshfti>;
+            key-positions = <20 21 24>;
         };
     };
 
@@ -382,6 +387,24 @@
             #binding-cells = <0>;
             bindings = <&kp N9 &kp N0>;
             label = "MACRO_NUM90";
+        };
+
+        macro_ctrlshfti: macro_ctrlshfti {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_press>,
+                <&kp LSHFT>,
+                <&macro_tap>,
+                <&kp I>,
+                <&macro_release>,
+                <&kp LCTRL>,
+                <&macro_release>,
+                <&kp LSHFT>;
+
+            label = "MACRO_CTRLSHFTI";
         };
     };
 
