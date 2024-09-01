@@ -164,7 +164,7 @@
 
         photoshop {
             bindings = <&to 5>;
-            key-positions = <31 1>;
+            key-positions = <1 31>;
         };
 
         combo_ctrlo {
@@ -175,6 +175,16 @@
         combo_ctrln {
             bindings = <&macro_ctrln>;
             key-positions = <20 4>;
+        };
+
+        blender {
+            bindings = <&to 7>;
+            key-positions = <10 31>;
+        };
+
+        combo_tab {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
         };
     };
 
@@ -421,8 +431,8 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-  &ct LGUI Q   &kp Y        &kp U       &kp L   &kp J     &tog 5  &to 8   &trans  &trans  &trans
-  &lt 6 O      &kp I        &kp E       &kp N   &kp M     &to 7   &trans  &trans  &trans  &trans
+  &ct LGUI Q   &kp Y        &kp U       &kp L   &kp J     &tog 5  &to 7   &trans  &trans  &trans
+  &lt 6 O      &kp I        &kp E       &kp N   &kp M     &to 9   &trans  &trans  &trans  &trans
   &ct LCTRL Z  &ct LSHFT X  &ct LALT C  &kp H   &kp K     &trans  &trans  &trans  &trans  &trans
                                         &trans  &trans    &trans  &trans
             >;
@@ -543,21 +553,30 @@
             >;
         };
 
+        blender_layer {
+            bindings = <
+  &sl 8      &kp Q  &kp E  &kp F     &kp R        &trans  &trans  &trans  &trans  &trans
+  &kp LSHFT  &kp A  &kp S  &kp D     &kp G        &trans  &trans  &trans  &trans  &trans
+  &kp LCTRL  &kp Z  &kp X  &kp C     &kp B        &trans  &trans  &trans  &trans  &trans
+                           &kp LALT  &kp SPACE    &trans  &trans
+            >;
+        };
+
+        blender_layer2 {
+            bindings = <
+  &trans  &trans  &kp U   &kp I   &kp O     &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                          &trans  &trans    &trans  &trans
+            >;
+        };
+
         gaming_layer {
             bindings = <
   &kp Z      &kp Q  &kp R  &kp E     &kp I        &kp N1   &kp N2    &kp N3    &kp N4     &kp N5
   &kp LSHFT  &kp A  &kp W  &kp D     &kp F        &kp RET  &kp LEFT  &kp UP    &kp RIGHT  &kp BSPC
   &kp LCTRL  &kp X  &kp S  &kp C     &kp V        &kp M    &trans    &kp DOWN  &trans     &to 0
                            &kp LALT  &kp SPACE    &kp RET  &mo 2
-            >;
-        };
-
-        blender_layer {
-            bindings = <
-  &kp W      &kp Q  &trans  &trans     &trans       &trans  &trans  &trans  &trans  &trans
-  &kp TAB    &kp S  &kp R   &kp G      &kp F        &trans  &trans  &trans  &trans  &trans
-  &kp LSHFT  &kp Z  &kp X   &kp C      &trans       &trans  &trans  &trans  &trans  &trans
-                            &kp LCTRL  &kp SPACE    &trans  &trans
             >;
         };
     };
