@@ -11,6 +11,8 @@
 #define PHSH 5
 #define PROG 6
 
+&sl { /delete-property/ quick-release; };
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -408,10 +410,12 @@
     };
 
     behaviors {
-        encoder_alt_tab: encoder_alt_tab {
+        encoder_alt_tab_trans: encoder_alt_tab_trans {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&tabcw>, <&tabccw>;
+            bindings = <&trans>, <&trans>;
+
+            label = "ENCODER_ALT_TAB_TRANS";
         };
 
         ct: custom_tap {
@@ -423,6 +427,14 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <150>;
             require-prior-idle-ms = <100>;
+        };
+
+        encoder_brush_size: encoder_brush_size {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&kp RIGHT_BRACKET>, <&kp LEFT_BRACKET>;
+
+            label = "ENCODER_BRUSH_SIZE";
         };
     };
 
@@ -454,7 +466,9 @@
                                   &lt 1 TAB  &lt 2 SPACE    &lt 3 ENTER  &ct RSHFT BSPC
             >;
 
-            sensor-bindings = <&encoder_alt_tab &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings =
+                <&encoder_alt_tab_trans>,
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         mirror_layer {
@@ -480,7 +494,9 @@
                                         &trans  &trans    &trans  &trans
             >;
 
-            sensor-bindings = <&encoder_alt_tab &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings =
+                <&encoder_alt_tab_trans>,
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         nav_layer {
@@ -506,7 +522,9 @@
                                         &kp RET     &trans             &mo 4         &kp LSHFT
             >;
 
-            sensor-bindings = <&encoder_alt_tab &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings =
+                <&encoder_alt_tab_trans>,
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         sim_layer {
@@ -532,7 +550,9 @@
                                          &kp LSHFT  &mo 4       &trans    &trans
             >;
 
-            sensor-bindings = <&encoder_alt_tab &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings =
+                <&encoder_alt_tab_trans>,
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         adjust_layer {
@@ -558,7 +578,9 @@
                                           &trans  &trans    &trans  &trans
             >;
 
-            sensor-bindings = <&encoder_alt_tab &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings =
+                <&encoder_alt_tab_trans>,
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         photoshop_layer {
@@ -584,7 +606,9 @@
                            &kp LALT  &kp SPACE    &trans           &trans
             >;
 
-            sensor-bindings = <&encoder_alt_tab &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings =
+                <&encoder_alt_tab_trans>,
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         temp_PHSH {
