@@ -413,7 +413,7 @@
         encoder_brush_size: encoder_brush_size {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&kp RIGHT_BRACKET>, <&kp LEFT_BRACKET>;
+            bindings = <&tabcw>, <&tabccw>;
 
             label = "ENCODER_BRUSH_SIZE";
         };
