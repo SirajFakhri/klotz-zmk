@@ -410,12 +410,12 @@
     };
 
     behaviors {
-        encoder_alt_tab_trans: encoder_alt_tab_trans {
+        encoder_brush_size: encoder_brush_size {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&trans>, <&trans>;
+            bindings = <&kp RIGHT_BRACKET>, <&kp LEFT_BRACKET>;
 
-            label = "ENCODER_ALT_TAB_TRANS";
+            label = "ENCODER_BRUSH_SIZE";
         };
 
         ct: custom_tap {
@@ -427,14 +427,6 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <150>;
             require-prior-idle-ms = <100>;
-        };
-
-        encoder_brush_size: encoder_brush_size {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&kp RIGHT_BRACKET>, <&kp LEFT_BRACKET>;
-
-            label = "ENCODER_BRUSH_SIZE";
         };
     };
 
@@ -467,7 +459,7 @@
             >;
 
             sensor-bindings =
-                <&encoder_alt_tab_trans>,
+                <&encoder_brush_size>,
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
@@ -495,7 +487,7 @@
             >;
 
             sensor-bindings =
-                <&encoder_alt_tab_trans>,
+                <&encoder_brush_size>,
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
@@ -523,7 +515,7 @@
             >;
 
             sensor-bindings =
-                <&encoder_alt_tab_trans>,
+                <&encoder_brush_size>,
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
@@ -551,7 +543,7 @@
             >;
 
             sensor-bindings =
-                <&encoder_alt_tab_trans>,
+                <&encoder_brush_size>,
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
@@ -579,7 +571,7 @@
             >;
 
             sensor-bindings =
-                <&encoder_alt_tab_trans>,
+                <&encoder_brush_size>,
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
@@ -607,7 +599,7 @@
             >;
 
             sensor-bindings =
-                <&encoder_alt_tab_trans>,
+                <&encoder_brush_size>,
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
