@@ -148,7 +148,7 @@
 
         colon {
             bindings = <&kp COLON>;
-            key-positions = <18 16 17>;
+            key-positions = <18 16>;
             timeout-ms = <35>;
         };
 
@@ -410,12 +410,12 @@
     };
 
     behaviors {
-        encoder_brush_size: encoder_brush_size {
+        encoder_alt_tab: encoder_alt_tab {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&tabcw>, <&tabccw>;
 
-            label = "ENCODER_BRUSH_SIZE";
+            label = "ENCODER_ALT_TAB";
         };
 
         ct: custom_tap {
@@ -459,7 +459,7 @@
             >;
 
             sensor-bindings =
-                <&encoder_brush_size>,
+                <&encoder_alt_tab>,
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
@@ -487,7 +487,7 @@
             >;
 
             sensor-bindings =
-                <&encoder_brush_size>,
+                <&encoder_alt_tab>,
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
@@ -515,7 +515,7 @@
             >;
 
             sensor-bindings =
-                <&encoder_brush_size>,
+                <&encoder_alt_tab>,
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
@@ -543,7 +543,7 @@
             >;
 
             sensor-bindings =
-                <&encoder_brush_size>,
+                <&encoder_alt_tab>,
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
@@ -571,7 +571,7 @@
             >;
 
             sensor-bindings =
-                <&encoder_brush_size>,
+                <&encoder_alt_tab>,
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
@@ -599,7 +599,7 @@
             >;
 
             sensor-bindings =
-                <&encoder_brush_size>,
+                <&encoder_alt_tab>,
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
