@@ -210,6 +210,11 @@
             key-positions = <10 11>;
             timeout-ms = <35>;
         };
+
+        combo_ctrlq {
+            bindings = <&macro_ctrlq>;
+            key-positions = <0 20>;
+        };
     };
 
     macros {
@@ -406,6 +411,20 @@
             #binding-cells = <0>;
             bindings = <&kp N9 &kp N0>;
             label = "MACRO_NUM90";
+        };
+
+        macro_ctrlq: macro_ctrlq {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp Q>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "MACRO_CTRLQ";
         };
     };
 
