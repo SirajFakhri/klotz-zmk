@@ -166,7 +166,7 @@
 
         apostrophe {
             bindings = <&kp APOSTROPHE>;
-            key-positions = <8 9>;
+            key-positions = <8 7>;
         };
 
         underscore {
@@ -214,6 +214,16 @@
         combo_ctrlq {
             bindings = <&macro_ctrlq>;
             key-positions = <0 20>;
+        };
+
+        combo_back {
+            bindings = <&kp C_AC_BACK>;
+            key-positions = <28 29>;
+        };
+
+        combo_nexttask {
+            bindings = <&kp C_AL_NEXT_TASK>;
+            key-positions = <9 8>;
         };
     };
 
