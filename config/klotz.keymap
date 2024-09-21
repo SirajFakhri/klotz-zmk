@@ -216,24 +216,9 @@
             key-positions = <0 20>;
         };
 
-        combo_back {
-            bindings = <&kp C_AC_BACK>;
-            key-positions = <28 29>;
-        };
-
-        combo_nexttask {
-            bindings = <&kp C_AL_NEXT_TASK>;
-            key-positions = <8 9>;
-        };
-
-        combo_alttab {
-            bindings = <&macro_alttab>;
-            key-positions = <1 10>;
-        };
-
         combo_backward {
-            bindings = <&macro_backward>;
-            key-positions = <1 3>;
+            bindings = <&kp C_AC_BACK>;
+            key-positions = <1 10>;
         };
     };
 
