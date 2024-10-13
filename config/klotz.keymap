@@ -223,8 +223,7 @@
 
         v_blender {
             bindings = <&kp V>;
-            key-positions = <23 24>;
-            layers = <7>;
+            key-positions = <14 22>;
         };
     };
 
