@@ -225,6 +225,11 @@
             bindings = <&kp V>;
             key-positions = <14 22>;
         };
+
+        win_e {
+            bindings = <&macro_win_e>;
+            key-positions = <4 1>;
+        };
     };
 
     macros {
@@ -463,6 +468,20 @@
                 <&kp LEFT_ALT>;
 
             label = "MACRO_BACKWARD";
+        };
+
+        macro_win_e: macro_win_e {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN>,
+                <&macro_tap>,
+                <&kp E>,
+                <&macro_release>,
+                <&kp LEFT_WIN>;
+
+            label = "MACRO_WIN_E";
         };
     };
 
