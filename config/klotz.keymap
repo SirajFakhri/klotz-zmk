@@ -228,12 +228,12 @@
 
         win_e {
             bindings = <&macro_win_e>;
-            key-positions = <4 1>;
+            key-positions = <4 0>;
         };
 
         combo_asterisk {
             bindings = <&kp ASTERISK>;
-            key-positions = <0 4>;
+            key-positions = <4 24>;
         };
     };
 
