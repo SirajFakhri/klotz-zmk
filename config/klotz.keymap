@@ -225,8 +225,8 @@
         };
 
         combo_rightclick {
-            bindings = <&mkp RCLK>;
-            key-positions = <4 12>;
+            bindings = <&mkp MB2>;
+            key-positions = <4 14>;
         };
 
         combo_mouse4 {
