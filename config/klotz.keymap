@@ -226,7 +226,7 @@
 
         combo_rightclick {
             bindings = <&mkp RCLK>;
-            key-positions = <4 2 2>;
+            key-positions = <4 12>;
         };
 
         combo_mouse4 {
