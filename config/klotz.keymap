@@ -239,7 +239,7 @@
 
         combo_rightclick {
             bindings = <&mkp RCLK>;
-            key-positions = <4 31>;
+            key-positions = <12 4>;
         };
     };
 
