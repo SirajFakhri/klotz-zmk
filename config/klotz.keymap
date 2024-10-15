@@ -232,7 +232,7 @@
         };
 
         combo_asterisk {
-            bindings = <&kp ASTERISK>;
+            bindings = <&kp STAR>;
             key-positions = <4 24>;
         };
     };
