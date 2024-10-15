@@ -112,7 +112,7 @@
 
         pausebreak_prnt {
             bindings = <&kp PAUSE_BREAK>;
-            key-positions = <4 11>;
+            key-positions = <4 12>;
             timeout-ms = <35>;
         };
 
@@ -226,16 +226,11 @@
 
         combo_rightclick {
             bindings = <&mkp RCLK>;
-            key-positions = <4 12>;
+            key-positions = <3 1>;
         };
 
         combo_mouse4 {
             bindings = <&mkp MB4>;
-            key-positions = <3 1>;
-        };
-
-        combo_mouse5 {
-            bindings = <&mkp MB5>;
             key-positions = <2 0>;
         };
     };
