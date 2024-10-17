@@ -231,7 +231,7 @@
 
         combo_mouse4 {
             bindings = <&mkp MB4>;
-            key-positions = <0 12>;
+            key-positions = <0 2>;
         };
     };
 
