@@ -233,6 +233,16 @@
             bindings = <&mkp MB4>;
             key-positions = <0 2>;
         };
+
+        combo_3dcoat {
+            bindings = <&to 9>;
+            key-positions = <20 31>;
+        };
+
+        combo_middlemous {
+            bindings = <&mkp MB3>;
+            key-positions = <10 12>;
+        };
     };
 
     macros {
@@ -558,7 +568,7 @@
 
             bindings = <
   &kp F13  &kp F14  &kp F15  &kp F16      &kp F17    &tog 5  &to 7   &trans  &trans  &trans
-  &kp F18  &kp F19  &kp F20  &kp F21      &kp F22    &to 9   &trans  &trans  &trans  &trans
+  &kp F18  &kp F19  &kp F20  &kp F21      &kp F22    &to 11  &trans  &trans  &trans  &trans
   &kp F2   &kp F23  &kp F24  &key_repeat  &trans     &trans  &trans  &trans  &trans  &trans
                              &trans       &trans     &trans  &trans
             >;
@@ -694,6 +704,24 @@
   &macro_num45  &kp N1         &kp N2  &kp N3  &kp N     &trans   &kp N4  &kp N5  &kp N6  &kp MINUS
   &kp LCTRL     &kp MINUS      &kp T   &kp L   &kp M     &kp N0   &kp N1  &kp N2  &kp N3  &kp PLUS
                                        &trans  &trans    &trans   &trans
+            >;
+        };
+
+        coat_layer {
+            bindings = <
+  &kp SPACE  &kp Q  &kp W  &kp R     &kp F     &trans  &trans  &trans  &trans  &trans
+  &kp LSHFT  &kp A  &kp S  &kp D     &kp G     &trans  &trans  &trans  &trans  &trans
+  &kp LCTRL  &kp Z  &kp X  &kp Y     &kp C     &trans  &trans  &trans  &trans  &trans
+                           &kp LALT  &sl 10    &trans  &trans
+            >;
+        };
+
+        coat_layer2 {
+            bindings = <
+  &kp F1     &kp F2  &kp F3  &kp F4  &kp F5    &kp F12    &kp N7  &kp N8  &kp N9  &kp ASTERISK
+  &kp LSHFT  &kp N1  &kp N2  &kp N3  &kp H     &trans     &kp N4  &kp N5  &kp N6  &kp MINUS
+  &kp LCTRL  &kp N4  &kp N5  &kp N6  &kp N7    &kp ENTER  &kp N1  &kp N2  &kp N3  &kp PLUS
+                             &trans  &trans    &trans     &trans
             >;
         };
 
