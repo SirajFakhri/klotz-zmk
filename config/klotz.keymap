@@ -236,7 +236,7 @@
 
         combo_3dcoat {
             bindings = <&to 9>;
-            key-positions = <20 31>;
+            key-positions = <31 4>;
         };
 
         combo_middlemous {
