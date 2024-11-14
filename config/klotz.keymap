@@ -241,7 +241,7 @@
 
         combo_middlemous {
             bindings = <&mkp MB3>;
-            key-positions = <10 12>;
+            key-positions = <12 11>;
         };
     };
 
