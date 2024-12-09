@@ -249,7 +249,7 @@
 
         win_key {
             bindings = <&kp LEFT_GUI>;
-            key-positions = <0 10>;
+            key-positions = <2 31>;
         };
     };
 
