@@ -246,6 +246,11 @@
             key-positions = <31 20>;
             timeout-ms = <35>;
         };
+
+        win_key {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <0 10>;
+        };
     };
 
     macros {
