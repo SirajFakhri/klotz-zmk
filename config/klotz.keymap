@@ -229,12 +229,12 @@
         };
 
         rclck {
-            bindings = <&mkp MB2>;
+            bindings = <&mkp RCLK>;
             key-positions = <12 13>;
         };
 
         mmclck {
-            bindings = <&mkp MB3>;
+            bindings = <&mkp MCLK>;
             key-positions = <14 13>;
         };
     };
