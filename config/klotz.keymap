@@ -205,39 +205,9 @@
             timeout-ms = <35>;
         };
 
-        combo_backward {
-            bindings = <&kp C_AC_BACK>;
-            key-positions = <1 10>;
-            timeout-ms = <35>;
-        };
-
-        v_blender {
-            bindings = <&kp V>;
-            key-positions = <14 22>;
-            timeout-ms = <35>;
-        };
-
         win_e {
             bindings = <&macro_win_e>;
             key-positions = <4 0>;
-            timeout-ms = <35>;
-        };
-
-        combo_rightclick {
-            bindings = <&mkp RCLK>;
-            key-positions = <12 23>;
-            timeout-ms = <35>;
-        };
-
-        combo_mouse4 {
-            bindings = <&mkp MB4>;
-            key-positions = <0 2>;
-            timeout-ms = <35>;
-        };
-
-        combo_middlemous {
-            bindings = <&mkp MB3>;
-            key-positions = <12 3>;
             timeout-ms = <35>;
         };
 
@@ -256,6 +226,16 @@
             bindings = <&macro_ctrlshftc>;
             key-positions = <23 30 22>;
             timeout-ms = <35>;
+        };
+
+        rclck {
+            bindings = <&mkp MB2>;
+            key-positions = <12 13>;
+        };
+
+        mmclck {
+            bindings = <&mkp MB3>;
+            key-positions = <14 13>;
         };
     };
 
