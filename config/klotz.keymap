@@ -52,7 +52,7 @@
 
         combo_ctrlshftz {
             timeout-ms = <35>;
-            key-positions = <20 21 31>;
+            key-positions = <20 21 30>;
             bindings = <&macro_crtlshftz>;
         };
 
@@ -88,7 +88,7 @@
 
         ctrlshftv {
             bindings = <&macro_ctrlshftv>;
-            key-positions = <23 21 31>;
+            key-positions = <23 21 30>;
             timeout-ms = <35>;
         };
 
@@ -250,6 +250,12 @@
         win_key {
             bindings = <&kp LEFT_GUI>;
             key-positions = <2 31>;
+        };
+
+        combo_ctrlshftc {
+            bindings = <&macro_ctrlshftc>;
+            key-positions = <23 30 22>;
+            timeout-ms = <35>;
         };
     };
 
