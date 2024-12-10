@@ -52,7 +52,7 @@
 
         combo_ctrlshftz {
             timeout-ms = <35>;
-            key-positions = <20 21 30>;
+            key-positions = <20 21 31>;
             bindings = <&macro_crtlshftz>;
         };
 
