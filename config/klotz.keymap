@@ -227,16 +227,6 @@
             key-positions = <23 30 22>;
             timeout-ms = <35>;
         };
-
-        rclck {
-            bindings = <&mkp RCLK>;
-            key-positions = <12 13>;
-        };
-
-        mmclck {
-            bindings = <&mkp MCLK>;
-            key-positions = <14 13>;
-        };
     };
 
     macros {
@@ -624,10 +614,10 @@
 
         temp_PHSH {
             bindings = <
-  &trans  &kp N1  &kp N2  &kp N3  &kp N0             &trans  &trans  &trans  &trans  &trans
-  &trans  &kp N4  &kp N5  &kp N6  &kp PAUSE_BREAK    &trans  &trans  &trans  &trans  &trans
-  &trans  &kp N7  &kp N8  &kp N9  &trans             &trans  &trans  &trans  &trans  &trans
-                          &trans  &trans             &trans  &trans
+  &trans  &kp N1  &kp N2  &kp N3     &kp N0       &trans  &trans  &trans  &trans  &trans
+  &trans  &kp N4  &kp N5  &kp N6     &trans       &trans  &trans  &trans  &trans  &trans
+  &trans  &kp N7  &kp N8  &kp N9     &trans       &trans  &trans  &trans  &trans  &trans
+                          &mkp MCLK  &mkp RCLK    &trans  &trans
             >;
         };
 
