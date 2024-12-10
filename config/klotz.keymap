@@ -52,7 +52,7 @@
 
         combo_ctrlshftz {
             timeout-ms = <35>;
-            key-positions = <20 21 13>;
+            key-positions = <20 21 30>;
             bindings = <&macro_crtlshftz>;
         };
 
@@ -213,7 +213,7 @@
 
         combo_3dcoat_layer {
             bindings = <&to 7>;
-            key-positions = <31 20>;
+            key-positions = <31 3>;
             timeout-ms = <35>;
         };
 
