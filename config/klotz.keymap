@@ -225,7 +225,7 @@
 
         combo_rightclick {
             bindings = <&mkp RCLK>;
-            key-positions = <12 13>;
+            key-positions = <12 23>;
             timeout-ms = <35>;
         };
 
@@ -237,7 +237,7 @@
 
         combo_middlemous {
             bindings = <&mkp MB3>;
-            key-positions = <14 13>;
+            key-positions = <12 3>;
             timeout-ms = <35>;
         };
 
