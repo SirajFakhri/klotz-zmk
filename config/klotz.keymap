@@ -627,7 +627,7 @@
         blender_layer {
             bindings = <
   &kp SPACE  &kp Q           &kp E  &kp R     &kp F    &trans  &trans  &trans  &trans  &trans
-  &kp B      &kp A           &kp S  &kp D     &kp G    &trans  &trans  &trans  &trans  &trans
+  &kp B      &kp G           &kp S  &kp D     &kp A    &trans  &trans  &trans  &trans  &trans
   &kp LCTRL  &kp LEFT_SHIFT  &kp Z  &kp X     &kp C    &trans  &trans  &trans  &trans  &trans
                                     &kp LALT  &sl 6    &trans  &trans
             >;
