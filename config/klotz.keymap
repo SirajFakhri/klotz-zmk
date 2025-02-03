@@ -626,19 +626,19 @@
 
         blender_layer {
             bindings = <
-  &lt 7 SPACE     &kp Q  &kp E  &kp R     &kp F    &trans  &trans  &trans  &trans  &trans
-  &kp LEFT_SHIFT  &kp A  &kp S  &kp D     &kp G    &trans  &trans  &trans  &trans  &trans
-  &kp LCTRL       &kp Z  &kp X  &kp C     &kp B    &trans  &trans  &trans  &trans  &trans
-                                &kp LALT  &sl 6    &trans  &trans
+  &lt 7 SPACE  &kp B      &kp E  &kp R     &kp F    &trans  &trans  &trans  &trans  &trans
+  &kp Q        &kp A      &kp S  &kp D     &kp G    &trans  &trans  &trans  &trans  &trans
+  &kp LCTRL    &kp LSHFT  &kp Z  &kp X     &kp C    &trans  &trans  &trans  &trans  &trans
+                                 &kp LALT  &sl 6    &trans  &trans
             >;
         };
 
         blender_layer2 {
             bindings = <
-  &macro_num90    &macro_num45  &macro_num225  &kp U   &kp I     &kp F12  &kp N7  &kp N8  &kp N9  &kp ASTERISK
-  &kp LEFT_SHIFT  &kp N1        &kp N2         &kp N3  &kp O     &trans   &kp N4  &kp N5  &kp N6  &kp MINUS
-  &kp LCTRL       &kp MINUS     &kp T          &kp L   &kp M     &kp N0   &kp N1  &kp N2  &kp N3  &kp PLUS
-                                               &trans  &trans    &trans   &trans
+  &macro_num90  &macro_num45  &macro_num225  &kp U   &kp I     &kp F12  &kp N7  &kp N8  &kp N9  &kp ASTERISK
+  &kp MINUS     &kp N1        &kp N2         &kp N3  &kp O     &trans   &kp N4  &kp N5  &kp N6  &kp MINUS
+  &kp LCTRL     &kp LSHFT     &kp T          &kp L   &kp M     &kp N0   &kp N1  &kp N2  &kp N3  &kp PLUS
+                                             &trans  &trans    &trans   &trans
             >;
         };
 
