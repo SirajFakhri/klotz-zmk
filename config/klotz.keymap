@@ -644,10 +644,10 @@
 
         Blender_Layer3 {
             bindings = <
-  &trans     &kp TAB  &kp W      &kp H    &kp N0     &trans  &trans  &trans  &trans  &trans
-  &kp LSHFT  &kp N    &kp FSLH   &kp J    &kp N5     &trans  &trans  &trans  &trans  &trans
-  &kp LCTRL  &trans   &kp COMMA  &kp DOT  &kp F12    &trans  &trans  &trans  &trans  &trans
-                                 &trans   &trans     &trans  &trans
+  &trans     &kp TAB    &kp W       &kp H         &kp N0     &trans  &trans  &trans  &trans  &trans
+  &kp LSHFT  &kp N      &kp FSLH    &kp J         &kp N5     &trans  &trans  &trans  &trans  &trans
+  &kp LCTRL  &kp COMMA  &kp PERIOD  &kp ASTERISK  &kp F12    &trans  &trans  &trans  &trans  &trans
+                                    &trans        &trans     &trans  &trans
             >;
         };
 
