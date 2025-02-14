@@ -527,10 +527,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-  &lt 4 G    &kp W           &kp F    &kp P         &kp B        &kp J        &kp L           &kp U  &kp Y  &kp Q
-  &kp A      &kp R           &kp S    &kp T         &kp GRAVE    &kp M        &kp N           &kp E  &kp I  &kp O
-  &kp LCTRL  &kp LEFT_SHIFT  &kp TAB  &kp D         &kp V        &kp K        &kp H           &kp C  &kp X  &kp Z
-                                      &kp LEFT_ALT  &kp SPACE    &lt 2 ENTER  &ct RSHFT BSPC
+  &lt 4 G    &kp W           &kp F             &kp P         &kp B        &kp J        &kp L           &kp U  &kp Y  &kp Q
+  &kp A      &kp R           &kp S             &kp T         &kp GRAVE    &kp M        &kp N           &kp E  &kp I  &kp O
+  &kp LCTRL  &kp LEFT_SHIFT  &mt LEFT_WIN TAB  &kp D         &kp V        &kp K        &kp H           &kp C  &kp X  &kp Z
+                                               &kp LEFT_ALT  &kp SPACE    &lt 2 ENTER  &ct RSHFT BSPC
             >;
 
             sensor-bindings = <&encoder_vol>, <&inc_dec_kp C_VOL_UP C_VOL_DN>;
