@@ -113,7 +113,7 @@
         };
 
         pausebreak_prnt {
-            bindings = <&kp PAUSE_BREAK>;
+            bindings = <&kp PRINTSCREEN>;
             key-positions = <4 12>;
             timeout-ms = <35>;
         };
