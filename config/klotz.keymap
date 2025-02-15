@@ -616,10 +616,10 @@
 
         temp_PHSH {
             bindings = <
-  &trans     &kp N1  &kp N2  &kp N3    &kp N0        &kp ASTERISK  &kp F1  &kp F2  &kp F3  &kp F10
-  &kp LSHFT  &kp N4  &kp N5  &kp N6    &kp PERIOD    &kp FSLH      &kp F4  &kp F5  &kp F6  &kp F11
-  &kp LCTRL  &kp N7  &kp N8  &kp N9    &kp PLUS      &kp MINUS     &kp F7  &kp F8  &kp F9  &kp F12
-                             &kp LALT  &trans        &trans        &trans
+  &trans     &kp N1  &kp N2  &kp N3    &kp N0          &kp ASTERISK  &kp F1  &kp F2  &kp F3  &kp F10
+  &kp LSHFT  &kp N4  &kp N5  &kp N6    &kp PERIOD      &kp FSLH      &kp F4  &kp F5  &kp F6  &kp F11
+  &kp LCTRL  &kp N7  &kp N8  &kp N9    &kp PLUS        &kp MINUS     &kp F7  &kp F8  &kp F9  &kp F12
+                             &kp LALT  &kp LEFT_WIN    &trans        &trans
             >;
         };
 
