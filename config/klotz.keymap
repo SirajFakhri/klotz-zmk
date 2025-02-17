@@ -580,8 +580,8 @@
 
             bindings = <
   &trans     &kp AMPS   &trans  &trans     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp QUESTION  &kp COLON  &kp LESS_THAN  &kp GREATER_THAN
-  &kp UNDER  &kp PRCNT  &kp F2  &trans     &kp LBKT                &kp RBKT               &kp COMMA     &kp DOT    &kp SQT        &trans
-  &kp DLLR   &kp CARET  &kp AT  &kp HASH   &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LSHFT     &kp FSLH   &kp LS(DQT)    &kp STAR
+  &kp UNDER  &kp PRCNT  &kp F2  &trans     &kp LBKT                &kp RBKT               &kp COMMA     &kp DOT    &kp SQT        &kp ASTRK
+  &kp DLLR   &kp CARET  &kp AT  &kp HASH   &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LSHFT     &kp FSLH   &kp LS(DQT)    &trans
                                 &kp LSHFT  &mo 3                   &trans                 &trans
             >;
 
