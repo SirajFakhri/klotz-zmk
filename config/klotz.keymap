@@ -645,7 +645,7 @@
             bindings = <
   &trans     &kp TAB  &kp W      &kp H       &kp KP_N0       &trans  &trans  &trans  &trans  &kp F12
   &kp LSHFT  &kp N    &kp FSLH   &kp J       &kp ASTERISK    &trans  &trans  &trans  &trans  &trans
-  &kp LCTRL  &trans   &kp COMMA  &kp PERIOD  &kp KP_N5       &trans  &trans  &trans  &trans  &trans
+  &kp LCTRL  &trans   &kp COMMA  &kp KP_DOT  &kp KP_N5       &trans  &trans  &trans  &trans  &trans
                                  &trans      &trans          &trans  &trans
             >;
         };
