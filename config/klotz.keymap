@@ -625,19 +625,19 @@
 
         blender_layer {
             bindings = <
-  &mo 7      &kp B      &kp E  &kp R     &kp F    &trans  &trans  &trans  &trans  &trans
-  &kp Q      &kp G      &kp S  &kp D     &kp A    &trans  &trans  &trans  &trans  &trans
-  &kp LCTRL  &kp LSHFT  &kp X  &kp Z     &kp C    &trans  &trans  &trans  &trans  &trans
-                               &kp LALT  &mo 6    &trans  &trans
+  &mo 7      &kp B      &kp E  &kp R     &kp F          &trans  &trans  &trans  &trans  &trans
+  &kp Q      &kp G      &kp S  &kp D     &kp A          &trans  &trans  &trans  &trans  &trans
+  &kp LCTRL  &kp LSHFT  &kp X  &kp Z     &kp C          &trans  &trans  &trans  &trans  &trans
+                               &kp LALT  &lt 6 SPACE    &trans  &trans
             >;
         };
 
         blender_layer2 {
             bindings = <
-  &macro_num90  &macro_num45  &macro_num225  &kp U   &kp I          &kp F12    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_N9        &kp ASTERISK
-  &kp MINUS     &kp N1        &kp N2         &kp N3  &kp O          &trans     &kp KP_N4        &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS
-  &kp LCTRL     &kp LSHFT     &kp T          &kp L   &kp M          &kp KP_N0  &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp PLUS
-                                             &trans  &lt 4 SPACE    &trans     &trans
+  &macro_num90  &macro_num45  &macro_num225  &kp U   &kp I     &kp F12    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_N9        &kp ASTERISK
+  &kp MINUS     &kp N1        &kp N2         &kp N3  &kp O     &trans     &kp KP_N4        &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS
+  &kp LCTRL     &kp LSHFT     &kp T          &kp L   &kp M     &kp KP_N0  &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp PLUS
+                                             &trans  &trans    &trans     &trans
             >;
         };
 
