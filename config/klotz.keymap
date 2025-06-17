@@ -219,11 +219,6 @@
             timeout-ms = <35>;
         };
 
-        win_key {
-            bindings = <&kp LEFT_GUI>;
-            key-positions = <2 31>;
-        };
-
         combo_ctrlshftc {
             bindings = <&macro_ctrlshftc>;
             key-positions = <23 30 22>;
@@ -581,7 +576,7 @@
             bindings = <
   &trans     &kp AMPS   &trans  &trans     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp QUESTION  &kp COLON  &kp LESS_THAN  &kp GREATER_THAN
   &kp UNDER  &kp PRCNT  &kp F2  &trans     &kp LBKT                &kp RBKT               &kp COMMA     &kp DOT    &kp SQT        &kp ASTRK
-  &kp DLLR   &kp CARET  &kp AT  &kp HASH   &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LSHFT     &kp FSLH   &kp LS(DQT)    &trans
+  &kp DLLR   &kp CARET  &kp AT  &kp HASH   &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LSHFT     &kp FSLH   &kp LS(DQT)    &kp EQUAL
                                 &kp LSHFT  &mo 3                   &trans                 &trans
             >;
 
