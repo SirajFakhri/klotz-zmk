@@ -224,6 +224,11 @@
             key-positions = <23 30 22>;
             timeout-ms = <35>;
         };
+
+        gaming {
+            bindings = <&to 10>;
+            key-positions = <9 32>;
+        };
     };
 
     macros {
@@ -660,6 +665,15 @@
   &kp N1     &kp N2     &kp N3  &kp N4  &kp H     &kp RBKT  &kp N4  &kp N5  &kp N6  &kp MINUS
   &kp LCTRL  &kp LSHFT  &kp N5  &kp V   &kp E     &kp LBKT  &kp N1  &kp N2  &kp N3  &kp PLUS
                                 &trans  &trans    &trans    &trans
+            >;
+        };
+
+        gaming {
+            bindings = <
+  &lt 4 G    &kp Q    &kp T  &kp R     &kp B        &trans  &trans  &trans  &trans  &trans
+  &kp LSHFT  &kp A    &kp W  &kp D     &kp F        &trans  &trans  &trans  &trans  &trans
+  &kp LCTRL  &kp TAB  &kp S  &kp C     &kp V        &trans  &trans  &trans  &trans  &trans
+                             &kp RALT  &kp SPACE    &trans  &trans
             >;
         };
     };
