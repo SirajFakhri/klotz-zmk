@@ -662,7 +662,7 @@
         coat_layer {
             bindings = <
   &lt 5 TAB  &kp Q      &kp W  &kp R     &kp F           &kp O     &kp N6  &kp N7  &trans  &trans
-  &kp C      &kp A      &kp S  &kp D     &kp E           &kp APOS  &trans  &trans  &trans  &trans
+  &kp D      &kp G      &kp S  &kp E     &kp A           &kp APOS  &trans  &trans  &trans  &trans
   &kp LCTRL  &kp LSHFT  &kp Z  &kp X     &kp Y           &trans    &trans  &trans  &trans  &trans
                                &kp LALT  &lt 10 SPACE    &trans    &trans
             >;
