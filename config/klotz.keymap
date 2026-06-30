@@ -190,14 +190,8 @@
         };
 
         blender {
-            bindings = <&to 6>;
+            bindings = <&to 5>;
             key-positions = <10 31>;
-            timeout-ms = <35>;
-        };
-
-        combo_tab {
-            bindings = <&kp TAB>;
-            key-positions = <>;
             timeout-ms = <35>;
         };
 
@@ -213,12 +207,6 @@
             timeout-ms = <35>;
         };
 
-        combo_3dcoat_layer {
-            bindings = <&to 9>;
-            key-positions = <31 4>;
-            timeout-ms = <35>;
-        };
-
         combo_ctrlshftc {
             bindings = <&macro_ctrlshftc>;
             key-positions = <23 30 22>;
@@ -226,8 +214,8 @@
         };
 
         gaming {
-            bindings = <&to 4>;
-            key-positions = <31 3>;
+            bindings = <&to 8>;
+            key-positions = <31 4>;
         };
     };
 
@@ -527,7 +515,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-  &lt 5 G    &kp W           &kp F             &kp P         &lt 1 B      &kp J        &kp L           &kp U  &kp Y  &kp Q
+  &lt 4 G    &kp W           &kp F             &kp P         &lt 1 B      &kp J        &kp L           &kp U  &kp Y  &kp Q
   &kp A      &kp R           &kp S             &kp T         &kp GRAVE    &kp M        &kp N           &kp E  &kp I  &kp O
   &kp LCTRL  &kp LEFT_SHIFT  &mt LEFT_WIN TAB  &kp D         &kp V        &kp K        &kp H           &kp C  &kp X  &kp Z
                                                &kp LEFT_ALT  &kp SPACE    &lt 2 ENTER  &ct RSHFT BSPC
@@ -614,15 +602,6 @@
             sensor-bindings = <&encoder_vol>, <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
-        gaming {
-            bindings = <
-  &lt 5 B    &kp Q  &kp T  &kp E         &kp R        &kp N1  &kp N2  &kp N3  &kp N4  &kp N5
-  &kp LSHFT  &kp A  &kp W  &kp D         &kp F        &trans  &trans  &trans  &trans  &trans
-  &kp LCTRL  &kp Z  &kp S  &kp X         &kp C        &trans  &trans  &trans  &trans  &trans
-                           &kp LEFT_ALT  &kp SPACE    &trans  &trans
-            >;
-        };
-
         temp_PHSH {
             bindings = <
   &trans     &kp N1  &kp N2  &kp N3   &kp N0        &kp ASTERISK  &kp F1  &kp F2  &kp F3  &kp F10
@@ -634,10 +613,10 @@
 
         blender_layer {
             bindings = <
-  &mo 8      &kp B      &kp E  &kp R     &kp F          &trans  &trans  &trans  &trans  &trans
+  &mo 7      &kp B      &kp E  &kp R     &kp F          &trans  &trans  &trans  &trans  &trans
   &kp Q      &kp G      &kp S  &kp D     &kp A          &trans  &trans  &trans  &trans  &trans
   &kp LCTRL  &kp LSHFT  &kp X  &kp Z     &kp C          &trans  &trans  &trans  &trans  &trans
-                               &kp LALT  &lt 7 SPACE    &trans  &trans
+                               &kp LALT  &lt 6 SPACE    &trans  &trans
             >;
         };
 
@@ -659,21 +638,12 @@
             >;
         };
 
-        coat_layer {
+        gaming {
             bindings = <
-  &lt 5 TAB  &kp Q      &kp W  &kp R     &kp F           &kp O     &kp N6  &kp N7  &trans  &trans
-  &kp D      &kp G      &kp S  &kp E     &kp A           &kp APOS  &trans  &trans  &trans  &trans
-  &kp LCTRL  &kp LSHFT  &kp Z  &kp X     &kp Y           &trans    &trans  &trans  &trans  &trans
-                               &kp LALT  &lt 10 SPACE    &trans    &trans
-            >;
-        };
-
-        coat_layer2 {
-            bindings = <
-  &kp F1     &kp F2     &kp F3  &kp F4  &kp F5    &kp F12   &kp N7  &kp N8  &kp N9  &kp ASTERISK
-  &kp N1     &kp N2     &kp N3  &kp N4  &kp N5    &kp RBKT  &kp N4  &kp N5  &kp N6  &kp MINUS
-  &kp LCTRL  &kp LSHFT  &kp H   &kp V   &kp G     &kp LBKT  &kp N1  &kp N2  &kp N3  &kp PLUS
-                                &trans  &trans    &trans    &trans
+  &lt 4 B    &kp Q  &kp T  &kp E         &kp R        &kp N1  &kp N2  &kp N3  &kp N4  &kp N5
+  &kp LSHFT  &kp A  &kp W  &kp D         &kp F        &trans  &trans  &trans  &trans  &trans
+  &kp LCTRL  &kp Z  &kp S  &kp X         &kp C        &trans  &trans  &trans  &trans  &trans
+                           &kp LEFT_ALT  &kp SPACE    &trans  &trans
             >;
         };
     };
