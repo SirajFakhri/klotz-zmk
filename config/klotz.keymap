@@ -215,7 +215,7 @@
 
         combo_3dcoat_layer {
             bindings = <&to 9>;
-            key-positions = <31 3>;
+            key-positions = <31 4>;
             timeout-ms = <35>;
         };
 
@@ -227,7 +227,7 @@
 
         gaming {
             bindings = <&to 4>;
-            key-positions = <31 4>;
+            key-positions = <31 3>;
         };
     };
 
