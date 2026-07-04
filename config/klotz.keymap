@@ -567,10 +567,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-  &trans     &kp AMPS   &trans  &trans     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp QUESTION  &kp SEMICOLON  &kp LESS_THAN  &kp GREATER_THAN
-  &kp UNDER  &kp PRCNT  &kp F2  &trans     &kp LBKT                &kp RBKT               &kp COMMA     &kp DOT        &kp SQT        &kp ASTRK
-  &kp DLLR   &kp CARET  &kp AT  &kp HASH   &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LSHFT     &kp FSLH       &kp LS(DQT)    &kp EQUAL
-                                &kp LSHFT  &mo 3                   &trans                 &trans
+  &trans     &kp AMPS   &trans  &kp QUESTION  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH  &kp SEMICOLON  &kp LESS_THAN  &kp GREATER_THAN
+  &kp UNDER  &kp PRCNT  &kp F2  &trans        &kp LBKT                &kp RBKT               &kp COMMA             &kp DOT        &kp SQT        &kp ASTRK
+  &kp DLLR   &kp CARET  &kp AT  &kp HASH      &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LSHFT             &kp FSLH       &kp LS(DQT)    &kp EQUAL
+                                &kp LSHFT     &mo 3                   &trans                 &trans
             >;
 
             sensor-bindings = <&encoder_vol>, <&inc_dec_kp C_VOL_UP C_VOL_DN>;
